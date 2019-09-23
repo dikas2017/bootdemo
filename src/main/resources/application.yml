@@ -1,0 +1,18 @@
+spring:
+  #数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.56.5:3306/dbphone?useSSL=false&serverTimezone=UTC
+    username: root
+    password: MeiJie2018
+  #redis配置
+  redis:
+    host: 192.168.56.5
+    port: 6379
+    password: 2333
+  application:
+    name: bootdemo
+
+mybatis-plus:
+  #mybatis实体类所在包
+  type-aliases-package: com.imooc.bootdemo.entity
