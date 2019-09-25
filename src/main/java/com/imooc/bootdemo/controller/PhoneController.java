@@ -1,7 +1,6 @@
 package com.imooc.bootdemo.controller;
 
 import com.imooc.bootdemo.entity.Phone;
-import com.imooc.bootdemo.mapper.PhoneMapper;
 import com.imooc.bootdemo.service.IPhoneService;
 import org.springframework.web.bind.annotation.*;
 
