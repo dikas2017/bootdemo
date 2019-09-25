@@ -7,9 +7,23 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class Phone {
 
-    private Integer id;
+    /**
+     * 品牌
+     */
     private String brand;
+
+    /**
+     * 型号
+     */
     private String model;
+
+    /**
+     * 操作系统
+     */
     private String os;
+
+    /**
+     * 操作系统版本
+     */
     private String osVersion;
 }

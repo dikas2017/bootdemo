@@ -16,3 +16,8 @@ spring:
 mybatis-plus:
   #mybatis实体类所在包
   type-aliases-package: com.imooc.bootdemo.entity
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+  global-config:
+    db-config:
+      db-type: mysql
+      id-type: auto
