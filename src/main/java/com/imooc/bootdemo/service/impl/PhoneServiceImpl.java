@@ -6,12 +6,7 @@ import com.imooc.bootdemo.mapper.PhoneMapper;
 import com.imooc.bootdemo.service.IPhoneService;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
 public class PhoneServiceImpl extends ServiceImpl<PhoneMapper, Phone> implements IPhoneService {
-    @Override
-    public List<Phone> findAll() {
-        return this.list();
-    }
+
 }
